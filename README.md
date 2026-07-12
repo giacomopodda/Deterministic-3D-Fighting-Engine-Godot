@@ -18,5 +18,18 @@ Currently showcasing the core architectural layout (`/script/core/`):
 * `fighter_controller.gd`: Implementation layer handling localized damage calculation, dynamic pushback vectors, and spatial rotation tracking.
 * `state_machine.gd` / `fighter_state.gd`: Modular framework for isolated state encapsulation.
 
+## 🚀 The Backstory & Hardware Optimization
+This is my **very first video game project**, and I deliberately chose one of the most mechanically complex genres in software development: a 3D fighting engine. 
+
+The entire initial framework was researched, designed, and coded in just **3 months**, running on an extremely limited low-end laptop:
+* **CPU:** AMD A6-9225 Radeon R4 (2 Cores, 2.60 GHz)
+* **RAM:** 4.00 GB (3.89 GB usable)
+* **GPU:** AMD Radeon(TM) R4 Graphics (68 MB VRAM)
+* **Storage:** 119 GB Samsung SSD
+
+Developing under these severe hardware restrictions forced me to focus heavily on memory efficiency, strict code separation, and engine optimization from day one. 
+
+### ⚡ What's Next?
+I am currently **transitioning to a much more powerful PC setup**, which will allow me to scale up the project significantly. New updates, advanced combat mechanics, and graphical implementations will be published regularly as development continues!
 ---
 *Note: This repository serves as a technical portfolio to demonstrate architectural design and clean code practices in game development.*
